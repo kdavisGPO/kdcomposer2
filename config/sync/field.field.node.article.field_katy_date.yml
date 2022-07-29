@@ -1,0 +1,21 @@
+uuid: 6b42640f-854c-4428-a2ba-750a039a4bad
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_katy_date
+    - node.type.article
+  module:
+    - datetime
+id: node.article.field_katy_date
+field_name: field_katy_date
+entity_type: node
+bundle: article
+label: 'Katy Date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime
